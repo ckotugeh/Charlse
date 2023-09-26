@@ -1,0 +1,60 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Identity-H
+Registry:Adobe
+Ordering:Identity
+OutlineFileName:C:\Program Files\Adobe\Acrobat DC\Resource\CMap\Identity-H
+FileLength:8228
+FileModTime:1612241368
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Identity-V
+Registry:Adobe
+Ordering:Identity
+UseCMap:Identity-H
+OutlineFileName:C:\Program Files\Adobe\Acrobat DC\Resource\CMap\Identity-V
+FileLength:2761
+FileModTime:1612241368
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UCS2-GBK-EUC
+Registry:Adobe
+Ordering:UCS2_GBK_EUC
+OutlineFileName:C:\Program Files\Adobe\Acrobat DC\Resource\CMap\UCS2-GBK-EUC
+FileLength:243835
+FileModTime:1612241368
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniKS-UTF16-H
+Registry:Adobe
+Ordering:Korea1
+OutlineFileName:C:\Program Files\Adobe\Acrobat DC\Resource\CMap\UniKS-UTF16-H
+FileLength:131902
+FileModTime:1612241368
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:UniKS-UTF16-V
+Registry:Adobe
+Ordering:Korea1
+UseCMap:UniKS-UTF16-H
+OutlineFileName:C:\Program Files\Adobe\Acrobat DC\Resource\CMap\UniKS-UTF16-V
+FileLength:3198
+FileModTime:1612241368
+%EndFont
+

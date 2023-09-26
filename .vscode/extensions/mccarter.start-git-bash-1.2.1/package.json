@@ -1,0 +1,54 @@
+{
+	"name": "start-git-bash",
+	"displayName": "Start git-bash",
+	"description": "Adds a bash command to VSCode that allows you to start git-bash in the current workspace's root folder.",
+	"version": "1.2.1",
+	"icon": "images/git-bash-logo.svg",
+	"publisher": "McCarter",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Robert923/vscode-start-git-bash.git"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.startGitBash",
+		"onCommand:extension.startWorkspaceGitBash"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.startGitBash",
+				"title": "bash"
+			},
+			{
+				"command": "extension.startWorkspaceGitBash",
+				"title": "bash in workspace"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^1.8.5",
+		"vscode": "^0.11.0"
+	},
+	"__metadata": {
+		"id": "3382cdf2-af9d-4b7d-9008-3c22969d6a8c",
+		"publisherId": "a016bfb1-d498-4fe9-a95d-8b6c4bd89505",
+		"publisherDisplayName": "McCarter",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1693311645229,
+		"preRelease": false
+	}
+}
